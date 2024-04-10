@@ -25,8 +25,7 @@ AKT2,AKT2,MNEVSVIKEGWLHKRGEYIKTWRPRYFLLKSDGSFIGYKERPEAPDQTLPPLNN...
 
 ## Requirements
 
-python == 3.7.16
-
+python == 3.7.16  
 tensorflow == 1.15.0
 
 deepctr == 0.8.4
