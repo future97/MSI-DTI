@@ -43,4 +43,10 @@ then seq.py is run to obtain the target representation of the selected dataset
 ```
 python seq.py
 ```
-it is worth mentioning that, in the network embedding module, we have used both [AttentionWalk](https://github.com/benedekrozemberczki/AttentionWalk "AttentionWalk") and [CompGCN](https://github.com/malllabiisc/CompGCN "CompGCN") methods, and their running methods are shown in the source file.
+it is worth mentioning that, in the network embedding module, we have used both [AttentionWalk](https://github.com/benedekrozemberczki/AttentionWalk "AttentionWalk") and [CompGCN](https://github.com/malllabiisc/CompGCN "CompGCN") methods, and their running methods are shown in the source file.  
+
+After preparing these materials, run the main.py(we take the KIBA dataset as an example)  
+```
+python main.py
+```
+
