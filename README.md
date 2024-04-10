@@ -9,13 +9,16 @@ Four datasets were used in the experiments: DTKG, Davis, KIBA and DrugBank, of w
 Before running, it is necessary to process the data, specifically, it is necessary to extract the drug information from all the data and save it into drugs.csv, the example is as follows:
 
 drug_id,smiles  
+
 11314340,CC1=C2C=C(C=CC2=NN1)C3=CC(=CN=C3)OCC(CC4=CC=CC=C4)N  
 24889392,CC(C)(C)C1=CC(=NO1)NC(=O)NC2=CC=C(C=C2)C3=CN4C5=C(C=C(C=C5)OCCN6CCOCC6)SC4=N3  
 11409972,CCN1CCN(CC1)CC2=C(C=C(C=C2)NC(=O)NC3=CC=C(C=C3)OC4=NC=NC(=C4)NC)C(F)(F)F  
 11338033,C1CNCCC1NC(=O)C2=C(C=NN2)NC(=O)C3=C(C=CC=C3Cl)Cl  
 
 Extract target information into proteins.csv, the example is as follows:  
+
 0,pro_ids,seq  
+
 AAK1,AAK1,MKKFFDSRREQGGSGLGSGSSGGGGSTSGLGSGYIGRVFGIGRQ...  
 ABL1(E255K),ABL1(E255K),PFWKILNPLLERGTYYYFMGQQPGKVLGDQRR...  
 AKT1,AKT1,MSDVAIVKEGWLHKRGEYIKTWRPRYFLLKNDGTFIGYKER...  
