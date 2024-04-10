@@ -35,4 +35,4 @@ scipy == 1.7.3
 
 ## Usage
 
-Firstly, the drug representation of the selected dataset is obtained by running smiles.py, and then seq.py is run to obtain the target representation of the selected dataset, it is worth mentioning that, in the network embedding module, we have used both [Alt]([https://github.com/benedekrozemberczki/AttentionWalk] "AttentionWalk") and [Alt]([https://github.com/malllabiisc/CompGCN] "CompGCN")  methods, and their running methods are shown in the source file.
+Firstly, the drug representation of the selected dataset is obtained by running smiles.py, and then seq.py is run to obtain the target representation of the selected dataset, it is worth mentioning that, in the network embedding module, we have used both [AttentionWalk]([https://github.com/benedekrozemberczki/AttentionWalk] "AttentionWalk") and [CompGCN]([https://github.com/malllabiisc/CompGCN] "CompGCN")  methods, and their running methods are shown in the source file.
