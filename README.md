@@ -4,6 +4,8 @@ The source code of "MSI-DTI: Predicting Drug-Target Interaction Based on Multi-S
 
 # Datasets
 
+Four data sets were used in the experiment: DTKG, Davis, KIBA and DrugBank. We put all the data of Davis and DrufBank and the sample data of DTKG in the corresponding folders. KIBA can be downloaded by itself according to the link.
+
 
 # Requirements
 
